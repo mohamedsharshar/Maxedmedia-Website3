@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amr Belal website</title>
+    <!-- boxicon css link -->
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cairo:wght@300;900&family=Martel+Sans&family=Mitr&family=Poppins:wght@500&family=Roboto+Slab&family=Roboto:ital@1&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="bot.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    .btn:hover {
+    box-shadow: var(--hover-box-shadow);
+    color: aliceblue;
+} 
+   .btn-box .d-CV , .cvContent .d-CV:hover{
+   color: black;
+   }   
+  </style>
+  <body>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+
+    <div class="overlay"></div>
+     <!-- chatbot -->
+     <button class="chatbot-toggler" style="z-index: 2222222222222222222222;">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2 style="text-align: center;">MaxedBot</h2>
+        <span class="close-btn material-symbols-outlined" style="color: white;">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there 👋<br>How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+<!-- end chatbot -->
+
+    <header>
+      <a href="#" class="logo"><span>A</span>mr <span>Be</span>lal</a>
+      <ul class="navlist " style="margin-top:0;margin-bottom: 0;">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="right-header">
+        <a href="bot.html" target="_blank" class="btn">Let's chat <i class="bx bx-message-dots"></i></a>
+        <div class="menu-icon">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="hero-info">
+        <h3>Welcome To my World</h3>
+        <h1>Hi I'm Amr</h1>
+
+        <div class="text-animate">
+          <h2>MAXED MediaPartener</h2>
+        </div>
+
+        <p>
+          I am a CS student who has ambitions to get a better place with all
+          skills i have in different fields.
+        </p>
+
+        <div class="btn-box">
+          <a
+            href="./Professional Resume CV White -(Amr).jpg"
+            target="_blank"
+            class="btn"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
+          <a href="mailto:richard@mail.com" class="btn d-CV"
+            >Certificates ! <i class="bx bx-right-arrow-alt"></i
+          ></a>
+        </div>
+
+        <div class="social-media">
+          <div class="bg-icon">
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="img-hero">
+        <img src="./img/Amr-main-1.png" alt="" />
+        <div class="rotate-text">
+          <div class="text">
+            <p>I'm AI student And I'm CEO manager And I'm GraphicDesigner.</p>
+          </div>
+          <span><i></i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./img/Amr-side-1.png" alt="" class="aboutHero">
+        <div class="showcase-ring">
+          <img src="shapes/ring.png" class="ring" alt="">
+          <img src="shapes/circle.png" class="circle" alt="">
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <h3>3 Year's Experience on digital marketing</h3>
+        <p>
+          We in MAXED Media group offer all what u want in digital marketing &
+          Graphic design.
+        </p>
+        <div class="about-btn">
+          <button class="active">Main Skills</button>
+          <button>Awards</button>
+          <button>Education</button>
+        </div>
+        <div class="content-btn">
+          <div class="content">
+            <div class="text-box">
+              <p>Digital marketing</p>
+              <span>Sponsered ads, social media managing pages ...</span>
+            </div>
+            <div class="text-box">
+              <p>Data Science & ML</p>
+              <span>Python , SQL ,Deep Learning ...</span>
+            </div>
+            <div class="text-box">
+              <p>Graphic Design</p>
+              <span>Logos, banners, social media ....</span>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <p>Zewil AI Certificate</p>
+              <span>A Certificate in AI 6 monthes bootcamp with high level instructors.</span>
+            </div>
+            <div class="text-box">
+              <p>Problem Solving Competition</p>
+              <span>winning third place at MNU "IOT Fighters"</span>
+            </div>
+            <div class="text-box">
+              <p>Activeties in Collage</p>
+              <span>Participating in Competitions and events.</span>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <p>Online Courses and Bootcamps</p>
+              <span>Many Courses entered & Certificates.</span>
+            </div>
+            <div class="text-box">
+              <p>Work Experience</p>
+              <span>Digital marketing Partener in MAXED Media</span>
+            </div>
+            <div class="text-box">
+              <p>IOT & Big data analytics Collage</p>
+              <span>A student in AI Collage</span>
+            </div>
+          </div>
+        </div>
+        <div class="cvContent">
+          <a
+            href="./Professional Resume CV White -(Amr).jpg"
+            target="_blank"
+            class="btn d-CV"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2 class="heading">My Services</h2>
+        <span>what i will do for you</span>
+      </div>
+
+      <div class="allServices">
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>
+            This is the primary goal of doing our official site, where we can
+            offer Logos ,banners and social media.you can see some of our
+            graphic design works in services secion.
+          </p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-code-alt"></i>
+            <span></span>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Here we can build a complete website form A to Z with our Team to
+            make a smile after tour request,Then never be heistate to check our
+            services.
+          </p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-desktop"></i>
+            <span></span>
+          </div>
+          <h3>UI / UX Design</h3>
+          <p>
+            How to make a modern UI-UX from A to Z with our Team, you can book
+            your turn on official site MAXED Media.Then never be heistate to
+            check our services.
+          </p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bxs-party"></i>
+            <span></span>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>
+            In this particular service we pretend to serve all marketing
+            experiance we had to customers, where you find it easy to deel with
+            all digital marketing features.
+          </p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+      </div>
+
+      <div class="proposal">
+        <div class="text-box">
+          <span>Get It Touch</span>
+          <h3>Have a Project On Your Mind</h3>
+          <a href="https://wa.me/+201551628783" class="btn">Contact Me</a>
+        </div>
+        <img src="img/support.png" class="first" alt="" />
+      </div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" alt="" />
+        <img src="shapes/circle.png" class="circle" alt="" />
+        <img src="shapes/circle.png" class="circle2" alt="" />
+        <img src="shapes/circle.png" class="circle3" alt="" />
+        <img src="shapes/half-ring.png" class="half-ring" alt="" />
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2 class="heading">My Services</h2>
+        <span>what i will do for you</span>
+      </div>
+      <div class="fillter-buttons">
+        <button class="button mixitup-control-active" data-filter="all">
+          All Work
+        </button>
+        <button class="button" data-filter=".web">Designs</button>
+        <button class="button" data-filter=".uiux">Cards</button>
+        <button class="button" data-filter=".branding">Web Development</button>
+      </div>
+
+      <div class="portfolio-gallery">
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>Bussiness Card</h3>
+            <p>
+              This is our MAXED Media Bussiness Card, book your card on our
+              official site.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/Official-MAXED Card_2.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>First Logo</h3>
+            <p>
+              This is my first logo by photoshop and it is for my own bussiness.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/Glass Effects Logo Mockup.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>First Work</h3>
+            <p>
+              This is a letterhead for our friend that is a teacher in English.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/El Wakeel.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>Second Work</h3>
+            <p>
+              And this is another letterhead for chemistry teacher who is also
+              our friend.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/تمسيع.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>First Card Work</h3>
+            <p>
+              Khatab is a big place for purchasing all types of carpets and
+              Textiles.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/خطاب كارت ضهر.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix branding">
+          <div class="portfolio-content">
+            <h3>Our Website</h3>
+            <p>
+              Here is our official website that we built and still add new
+              fixtures.
+            </p>
+            <a href="https://maxedmedia.org/" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/site.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="main-text">
+        <h2 class="heading">Blog</h2>
+        <span>What we also do</span>
+      </div>
+
+      <div class="blog-box swiper mySwiper">
+        <div class="cards swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/blog/slide-1.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Appreciation cards</h2>
+              <span class="date">Tuesday, Dec 14, 2023</span>
+              <p class="excerpt">
+                We also special in making these nice cards for customers.
+                ElMahala, Egypt.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/blog/slide-2.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Appreciation cards</h2>
+              <span class="date">Tuesday, Dec 14, 2023</span>
+              <p class="excerpt">
+                We also special in making these nice cards for customers.
+                ElMahala, Egypt.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/blog/slide-3.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Appreciation cards</h2>
+              <span class="date">Tuesday, Dec 14, 2023</span>
+              <p class="excerpt">
+                We also special in making these nice cards for customers.
+                ElMahala, Egypt.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/blog/slide-4.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Modern accessories</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Like light pens and many of modern and creative designs.
+                ElMahala, Egypt
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/blog/slide-5.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Modern accessories</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Like light pens and many of modern and creative designs.
+                ElMahala, Egypt
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="./img/blog/slide-6.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Modern accessories</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Like light pens and many of modern and creative designs.
+                ElMahala, Egypt
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" alt="" />
+        <img src="shapes/second-circle.png" class="second-circle" alt="" />
+        <img src="shapes/circle.png" class="circle" alt="" />
+        <img src="shapes/half-ring.png" class="half-ring" alt="" />
+      </div>
+    </section>
+    <!--Contact section-->
+    <section class="down-box" id="contact">
+      <div class="contactSkills">
+        <div class="contact-info">
+          <div class="main-text">
+            <h2 class="heading">Contact Me</h2>
+            <span>get in touch with me</span>
+          </div>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea name="#" id="" cols="30" rows="10"> </textarea>
+            <div class="formBtn">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="skills">
+          <div class="container">
+            <div class="skillBox">
+              <div class="main-text">
+                <h2 class="heading">My Skills</h2>
+                <span>Let Me Help you</span>
+              </div>
+              <div class="skill-wrap">
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="82">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Graphic design</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="70">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">management</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="69">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Digital marketing</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="56">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Python</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo" style="color: var(--main-color);">
+          MAXED Media
+        </h1>
+
+        <h2 style="color: rgba(99, 13, 178, 1);">Contact</h2>
+        <address>
+          5534 EL Mahala. Work: 01551628783<br />
+          <a
+            class="footer__btn"
+            href="mustafa.ayman776@gmail.com"
+            style="color: var(--main-color);"
+            >Email Us</a
+          >
+        </address>
+      </div>
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title" style="color: rgba(99, 13, 178, 1);">Media</h2>
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Marketing</a>
+            </li>
+            <li>
+              <a href="#">Sites management</a>
+            </li>
+            <li>
+              <a href="#">Sponsered Ads</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title" style="color: rgba(99, 13, 178, 1);">
+            Technology
+          </h2>
+
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Frontend design Design</a>
+            </li>
+
+            <li>
+              <a href="#">Software Design</a>
+            </li>
+
+            <li>
+              <a href="#">Digital Signage</a>
+            </li>
+
+            <li>
+              <a href="#">Automation</a>
+            </li>
+
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+
+            <li>
+              <a href="#">IoT</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title" style="color: rgba(99, 13, 178, 1);">Legal</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+       
+
+        <div class="legal__links">
+          <span>Made with <span class="heart">♥</span> our precious hands</span>
+        </div>
+        <p style="color: rgba(160, 8, 156, 1);text-align: center;margin-top: 25px;">
+          &copy; 2023 MAXED. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <div id="progress">
+      <span id="progress-value">
+        <i class="bx bxs-chevrons-up"></i>
+      </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="bot.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

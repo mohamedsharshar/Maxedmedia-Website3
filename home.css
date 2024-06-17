@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900');
+
+@import url(css/animate.css);
+@import url(css/owl.carousel.css);
+@import url(css/font-awesome.min.css);
+
+:root {
+    --bg-color: #e3edf7;
+    --gradient-white-bg: linear-gradient(0deg, #fff 0%, #edf4fa 51%, #e5eef7 100%);
+    --gradient-color-bg: linear-gradient(180deg, rgba(247, 1, 120, 1)0%,
+            rgba(160, 8, 156, 1)51%,
+            rgba(99, 13, 178, 1)100%);
+    --main-color: #e6006d;
+    --font-color: #90979f;
+    --hover-box-shadow: rgba(0, 0, 0, 0.19)0px 10px 20px,
+        rgba(0, 0, 0, 0.23)0px 6px 6px;
+    --gradient-white-bg2: linear-gradient(98deg, #e5eef7 0%, #fff 100%);
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn {
+    background: var(--gradient-color-bg);
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.btn:hover, .btn-box .d-CV:hover {
+    box-shadow: var(--hover-box-shadow);
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.btn-box .btn {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.btn-box .d-CV {
+    background: var(--gradient-white-bg2);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #000;
+    box-shadow: rgba(60, 64, 67, 0.3)0px 1px 2px 0,
+        rgba(60, 64, 67, 0.15)0px 2px 6px 2px;
+    transition: all .3s ease;
+}
+
+/*------------------------------------------------------------------
+    Banner Slider
+-------------------------------------------------------------------*/
+.slider-bg-one {
+    background-image: url("./uploads/Modern Office Building 3D Logo Mockup.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-bg-two {
+    background-image: url("./uploads/Team.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-bg-three {
+    background-image: url("./uploads/760.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-content-area {
+    height: 100vh;
+    position: relative;
+}
+
+.home-one-slider-otem .slider-content-area {
+    height: 650px;
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+}
+
+.slide-text h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.slide-text h1 span {
+    color: #e6006d;
+}
+
+.slide-text h2 {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+
+.slider-wrapper .owl-nav .owl-prev, .slider-wrapper .owl-nav .owl-next {
+    background: #393939;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.4s ease-in-out 0s;
+    width: 60px;
+    border-radius: 25px 0px 25px 0px;
+}
+
+.slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
+    background: linear-gradient(180deg, rgba(247, 1, 120, 1)0%,
+            rgba(160, 8, 156, 1)51%,
+            rgba(99, 13, 178, 1)100%);
+
+}
+
+.slider-wrapper .owl-nav .owl-prev {
+    margin-left: 0%;
+    left: 0px;
+    position: absolute;
+}
+
+.slider-wrapper .owl-nav .owl-prev i {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    width: auto;
+    height: auto;
+    background: none;
+    color: #ffffff;
+}
+
+.slider-wrapper .owl-nav .owl-next {
+    margin-right: 0%;
+    right: 0;
+    position: absolute;
+}
+
+.slider-wrapper .owl-nav .owl-next i {
+    position: absolute;
+    right: 0;
+    left: 0px;
+    width: auto;
+    height: auto;
+    background: none;
+    color: #ffffff;
+}
+
+.home-one-slider-otem::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 100%;
+    z-index: 1
+}
